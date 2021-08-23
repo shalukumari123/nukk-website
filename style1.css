@@ -1,0 +1,47 @@
+.cta-row-one h2 {	
+	z-index: 1;
+}
+
+@media (max-height: 800px) and (min-width: 1000px) {
+
+.main-menu div.main-menu-wrap {
+    padding: 60px 0;
+}
+
+.main-menu div.main-menu-wrap .main-menu-links {
+    align-items: flex-start;
+}
+
+}
+
+@media (max-width: 1000px) {
+
+.extra-menu-links {
+	display: none;
+}
+
+}
+
+.cta-row-one .h2 {
+font-family: 'playfair display';
+}
+
+.menu-footer-container .menu {
+margin-top: 0;
+}
+
+.single-services .back-arrow-button {
+display: none;
+}
+
+.section-cta .cta-row-one h4 {
+	font-family: 'proxima nova';
+		letter-spacing: 4px !important;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600 !important;
+}
+
+.project-list .view-project-button {
+	display: none;
+}
